@@ -50,12 +50,13 @@ section{
 #name h1{
 	margin: 0%;
 	color: #444444;
-	/* font-family: Helvetica, sans-serif; */
+	font-family: 'Rokkit',Helvetica, sans-serif; 
 }
 #name h2{
 	font-weight: 400;
 	margin-top: 0%;
 	color: #444444;
+	font-family: 'Rokkit',Helvetica, sans-serif; 
 }
 
 #contactDetails {
@@ -99,8 +100,11 @@ section{
 
 .sectionContent ul{
 	
-	align-items: center;
+	padding-left: 0px;
 	column-count: 3;
+}
+.sectionContent li{
+	font-size: 14px;
 }
 .sectionContent p{
 	display: flex;
