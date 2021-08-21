@@ -1,27 +1,118 @@
-.clear {
-	clear: both;
+/* ## Cores
+As seguintes cores serão usadas pelo documento para texto e fundos:
+- `#444444` (slate grey, títulos e sub-títulos)
+- `#181818` (jet black, contatos e descrições)
+- `#cf8a05` (yellow, tópicos e divisória)
+- `#f3f3f3` (off white, cor de fundo)
+- `#dedede` (light grey, divisória entre os tópicos) */
+*{
+	font-family: 'Lato',Arial, Helvetica, sans-serif;
+	background-color: #f3f3f3;
 }
 
-#headshot {
+
+.mainDetails {
+	border-bottom: #cf8a05 solid 2px;
+	width: 80%;
+	justify-content: center;
+	margin: 10% 10% 0%;
+}
+section{
+	border-bottom: 1px solid #dedede;
+	width: 80%;
+	justify-content: center;
+	margin: 0% 10%;
+}
+.sectionContent .numberOne{
+	margin-top: 20px;
+}
+
+
+.clear {
+	clear: both;
+	border: 1px;
+	height: 1px;
+	width: 80%;
+}
+
+#headshot img{
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	border-radius: 50%;
+	box-sizing: border-box;
 }
 
 #name {
 	float: left;
+	
+}
+#name h1{
+	margin: 0%;
+	color: #444444;
+	/* font-family: Helvetica, sans-serif; */
+}
+#name h2{
+	font-weight: 400;
+	margin-top: 0%;
+	color: #444444;
 }
 
 #contactDetails {
 	float: right;
+
+}
+#contactDetails ul,li,a{
+	color: #444444;
+	list-style: none;
+	text-decoration: none;
+	font-size: 12px;
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+
+	
 }
+.sectionTitle h1{
+
+	color: #cf8a05;
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1.17em;
+	font-family: 'Rokkit', Arial, Helvetica, sans-serif;
+}
+
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	/* color: #181818; */
+}
+.sectionContent h2{
+	color: #444444;
+	font-weight: 100;
+	font-family: 'Rokkit', Arial, Helvetica, sans-serif;
+	margin-bottom: 0px;
+}
+
+.sectionContent ul{
+	
+	align-items: center;
+	column-count: 3;
+}
+.sectionContent p{
+	display: flex;
+
+	font-size: 14px;
+	color: #181818;
+	margin-top: 0px;
+
+}
+
+.sectionContent .subDetails{
+	font-size: 10px;
+	font-style: italic;
+	margin: 0px;
 }
